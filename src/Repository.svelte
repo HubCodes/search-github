@@ -21,12 +21,16 @@
         color: #4578AA;
         cursor: pointer;
         transition: 0.2s;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     #name:hover {
         color: rgb(113, 152, 192);
     }
     #stars {
         font-size: 25px;
+        white-space: nowrap;
     }
     content {
         font-family: 'Roboto', sans-serif;
